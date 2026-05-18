@@ -36,15 +36,24 @@
     position: absolute;
     top: 0; left: 0;
     width: 100vw; height: 100vh;
-    padding: 60px 80px;
+    padding: 60px 80px 120px;
     display: none;
     flex-direction: column;
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .slide.active { display: flex; opacity: 1; }
   .slide.cover { justify-content: center; align-items: center; text-align: center; }
+  /* 自訂捲動條（細、低調奶茶色）*/
+  .slide::-webkit-scrollbar { width: 8px; }
+  .slide::-webkit-scrollbar-track { background: transparent; }
+  .slide::-webkit-scrollbar-thumb { background: rgba(216, 140, 58, 0.3); border-radius: 4px; }
+  .slide::-webkit-scrollbar-thumb:hover { background: rgba(216, 140, 58, 0.6); }
+  /* 摺疊段展開後，內容變成從上對齊（避免置中讓內容跑出視窗）*/
+  .slide:has(details[open]) { justify-content: flex-start; }
 
   .eyebrow {
     display: inline-block;
