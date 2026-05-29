@@ -310,6 +310,21 @@ a:hover {
   margin-bottom: 56px;
 }
 
+.skill-date {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.staff-card .skill-date {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  margin: 0;
+  line-height: 1;
+}
+
 /* ==========================================================================
    Why Section
    ========================================================================== */
@@ -516,7 +531,7 @@ a:hover {
 
 .staff-card {
   background: var(--card);
-  padding: 24px;
+  padding: 40px 24px 24px;
   border-radius: var(--radius);
   border: 1px solid var(--subtle);
   position: relative;
@@ -1443,4 +1458,18 @@ a:hover {
   .quote-block {
     padding: 20px 24px;
   }
+}
+
+
+/* tag-new：標示新加入的助理（如 2026-05-24 移入顧問思考的納瓦爾） */
+.staff-card .tag-new {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 3px 12px;
+  background: #D88C3A;
+  color: #FFF8F0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 999px;
+  letter-spacing: 1px;
 }
