@@ -1,0 +1,29 @@
+# 江江教練的 AI 辦公室
+
+> 一套讓不寫程式的知識工作者也能用的 AI 知識累積系統。下載後由 AI 助理「咪卡」接手安裝：幫你把系統搭好、帶你上手，陪你把每天的工作變成可以累積的知識資產。核心理念：流水的 AI，鐵打的知識。賣的是讓你能「累積知識」的系統，不是單次代工。
+
+設計者：江昱德（江江教練），隱性知識提煉師、AI 應用規劃師。
+
+## 核心概念
+
+- 文件即系統：規則寫在檔案裡，不綁任何一家 AI 工具。換 AI 不用重建系統。
+- 3X4 資料管理法：三種日記（工作日記、觀點日記、心情日記）× 四種時效（速查表、根目錄、分類資料夾、備存區）。
+- 檔名整理：檔名帶時間戳與描述，AI 讀檔名就能定位，省 token。
+- 標籤管理法（Tag Wiki）：受控詞彙加雙向連結，一份檔案多個視角。
+- AI 回寫：複雜任務完成後，AI 照清單回寫工作日記，把判斷、踩雷、驗收留下來。
+
+## 主要頁面
+
+- [首頁](https://jiangjiang-ai-office.vercel.app/)：產品介紹、下載安裝指令（支援 OpenAI Codex、Claude Cowork、Google Antigravity）
+- [AI 助理有誰](https://jiangjiang-ai-office.vercel.app/team)：27 位內建助理完整名冊，含咪卡入口、3X4 資料整理、納瓦爾顧問、技能包雙人組
+- [零基礎設定教學](https://jiangjiang-ai-office.vercel.app/learn)：把 AI 從問答工具變成工作系統的教學架構
+- [環境設定課手冊](https://jiangjiang-ai-office.vercel.app/learn-handbook)：實體三小時環境設定課的完整實況手冊，15 章
+- [AI 助理總覽](https://jiangjiang-ai-office.vercel.app/assistants)：所有助理的詳細介紹
+
+## 下載
+
+- GitHub：https://github.com/Jiang-Yude/ai-office-workshop
+
+## 聯絡
+
+- LINE 官方帳號（網站「關於我」區有連結）

@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /survey
+
+Sitemap: https://jiangjiang-ai-office.vercel.app/sitemap.xml

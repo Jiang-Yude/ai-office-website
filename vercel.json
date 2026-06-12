@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/survey",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
       ]
